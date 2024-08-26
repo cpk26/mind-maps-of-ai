@@ -1,0 +1,89 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: foundations
+  sections:
+        - file: beginning/foundational_math
+        - file: beginning/prominent_ideas_in_ml
+        - file: beginning/key_drivers_of_ai_progress
+        - file: beginning/history_2004
+        - file: beginning/history_present
+        - file: beginning/selecting_projects
+        - file: beginning/project_workflow
+        - file: beginning/training_nn
+        - file: beginning/ml_teams
+        - file: beginning/ml_ops
+        - file: beginning/ml_is_different_than_software
+        - file: beginning/ai_research
+        - file: beginning/ai_ethics
+- file: architecture
+  sections:
+        - file: architecture/unet
+        - file: architecture/residual_blocks
+        - file: architecture/mlp_mixer
+        - file: architecture/attention
+        - file: architecture/positional_encoding
+        - file: architecture/sequence_model_archetypes
+        - file: architecture/transformer_encoder_decoder
+        - file: architecture/transformer_encoder
+        - file: architecture/CLIP
+- file: math_optim
+  sections:
+        - file: optimization/differentiating_functionals
+        - file: optimization/convex_functions
+        - file: optimization/autodiff
+        - file: optimization/backprop_equations
+        - file: optimization/AD_in_dl_frameworks
+        - file: optimization/gradient_descent
+        - file: optimization/2nd_order_opt
+        - file: optimization/dl_optim_alg
+- file: gpu_perf
+  sections:        
+        - file: optimization/cpu
+        - file: optimization/gpu
+        - file: optimization/gpu_programming
+        - file: optimization/improving_model_perf
+        - file: optimization/parallelism
+        - file: optimization/performance_antipatterns
+- file: genai_image
+  sections:
+        - file: generative/overview
+        - file: generative/comparison
+        - file: generative/variational_autoencoder
+        - file: generative/autoregressive_generative_model
+        - file: generative/gans
+        - file: generative/inversion_by_direct_iteration
+        - file: generative/normalizing_flows
+        - file: generative/diffusion
+        - file: generative/diffusion2
+        - file: generative/auxillary
+        - file: generative/auxillary2
+- file: radiance 
+  sections:
+        - file: radiance/pinhole
+        - file: radiance/geometric_optics
+        - file: radiance/epipolar_geometry
+        - file: radiance/sfm
+        - file: radiance/radiance_field
+        - file: radiance/projection_matrix
+        - file: radiance/rotations
+        - file: radiance/volume_rendering
+        - file: radiance/3DGS
+        - file: radiance/nerf
+- file: statistics
+  sections:
+        - file: statistics/central_limit_theorem
+        - file: statistics/entropy
+        - file: statistics/kl_divergence
+        - file: statistics/mle
+- file: calculus
+  sections:
+        - file: calculus/derivatives
+        - file: calculus/vector_calculus
+        - file: calculus/matrix_calculus
+        - file: calculus/laplacian
+        - file: calculus/scalar_potential
+        - file: calculus/langevin
