@@ -87,3 +87,8 @@ chapters:
         - file: calculus/laplacian
         - file: calculus/scalar_potential
         - file: calculus/langevin
+- file: software
+  sections:
+        - file: software/pytorch
+        - file: software/pytorch_lightning
+        - file: software/docker
