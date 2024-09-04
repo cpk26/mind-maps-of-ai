@@ -24,6 +24,7 @@ chapters:
         - file: architecture/unet
         - file: architecture/residual_blocks
         - file: architecture/mlp_mixer
+        - file: architecture/rnn
         - file: architecture/attention
         - file: architecture/positional_encoding
         - file: architecture/sequence_model_archetypes

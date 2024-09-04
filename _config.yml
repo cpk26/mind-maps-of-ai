@@ -4,6 +4,7 @@
 title: Mind Maps of AI
 author: Conrad Koziol
 logo: logo.png
+copyright: "2024"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
