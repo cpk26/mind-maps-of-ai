@@ -23,6 +23,7 @@ chapters:
   sections:
         - file: architecture/unet
         - file: architecture/residual_blocks
+        - file: architecture/fpn
         - file: architecture/mlp_mixer
         - file: architecture/rnn
         - file: architecture/attention
@@ -33,8 +34,9 @@ chapters:
         - file: architecture/CLIP
 - file: components
   sections:
-        - file: components/fpn
         - file: components/data_leakage
+        - file: components/weight_initialization
+        - file: components/activation_functions
         - file: components/convolutions
         - file: components/normalization
         - file: components/pooling
