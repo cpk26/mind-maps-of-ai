@@ -31,6 +31,18 @@ chapters:
         - file: architecture/transformer_encoder_decoder
         - file: architecture/transformer_encoder
         - file: architecture/CLIP
+- file: components
+  sections:
+        - file: components/fpn
+        - file: components/data_leakage
+        - file: components/convolutions
+        - file: components/normalization
+        - file: components/pooling
+        - file: components/sparsemax
+        - file: components/focal_loss
+        - file: components/classification_losses
+        - file: components/regression_losses
+        - file: components/regularization
 - file: math_optim
   sections:
         - file: optimization/differentiating_functionals
